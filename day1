@@ -1,0 +1,15 @@
+1.Change screen from desktop to downloads
+Ans   #cd .config
+      #vim  user-dirs.dirs
+
+2.Why the date is 14.09.1752 instead of 3.09.1752?
+Ans  The date after 2.09.1752 is 14.09.1752 because the julian calendar
+     converted into georgian calendar and georgian calendar is 11 days ahead
+     of julian calendar.
+
+3.To make multiple folders together.
+Ans In windows
+    md folder1  folder2 folder3
+    In Linux
+    mkdir a{1..10}
+
