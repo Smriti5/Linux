@@ -1,0 +1,12 @@
+1.History with date and time
+Ans #export HISTTIMEFORMAT='%F  %T  '
+    #history
+    
+2.Take input from user and print it on terminal
+Ans #vim file
+        echo "Enter first name:"
+        read a
+        echo "Enter second name:"
+        read b
+        c="$a $b"
+        echo "The name is $c"
