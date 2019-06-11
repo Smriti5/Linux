@@ -1,0 +1,7 @@
+1.List how many members are there in group.
+Ans: #cat /etc/passwd
+
+2.How to add multiple users in a group in one command?
+Ans: By loop
+for user in user1 user2; do usermod -a -G groupname "$user";done
+
