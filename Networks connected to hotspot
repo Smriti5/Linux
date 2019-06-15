@@ -1,0 +1,6 @@
+Question:Find the number of devices connected from your hotspot by linux.
+Answer: netstat -tn 2>/dev/null
+netstat is a command-line network utility tool that displays network connections for the Transmission Control Protocol, 
+routing tables, and a number of network interface and network protocol statistics.
+-n displays address and port number in numerical from.
+-t display current connection
